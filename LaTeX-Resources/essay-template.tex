@@ -1,0 +1,51 @@
+% LaTeX template created by J.L. Symonds Patel
+\documentclass[a4paper, 12pt]{report}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+%\usepackage{CJKutf8}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{chngcntr}
+\usepackage{comment}
+%\usepackage{lmodern}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+%\usepackage[margin=2.54cm]{geometry}
+\usepackage[yyyymmdd]{datetime}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RH]{\textbf{\emph{J. L. Symonds Patel}}}
+\fancyhead[LH]{\textbf{Education -- II}}
+\fancyfoot[CF]{\textbf{Page \thepage}}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks,allcolors=black}
+
+\title{World:\\Education -- II\\---\\\normalsize{With a Focus on University Education}}
+\author{J. L. Symonds Patel}
+\renewcommand{\dateseparator}{/}
+\date{\today}
+
+\titleformat{\chapter}[display]{\normalfont\bfseries\Huge}{\thechapter.}{0pt}{}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\thispagestyle{plain}
+\newpage
+
+\hypersetup{pageanchor=true}
+\chapter{Introduction}
+\thispagestyle{fancy}
+some text
+
+\end{document}
