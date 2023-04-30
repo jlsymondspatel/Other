@@ -9,7 +9,7 @@
 #+LATEX_CLASS_OPTIONS: [a5paper,12pt]
 #+LATEX_HEADER:\setlength{\parindent}{0em}
 #+LATEX_HEADER:\setlength{\parskip}{0em}
-#+LATEX_HEADER:\usepackage[lmargin=1.5cm,tmargin=1.5cm,rmargin=1.5cm,bmargin=1.5cm]{geometry}
+#+LATEX_HEADER:\usepackage[lmargin=1cm,tmargin=2cm,rmargin=1cm,bmargin=2cm]{geometry}
 #+LATEX_HEADER:\setcounter{secnumdepth}{0}
 
 #+LATEX_HEADER:\usepackage{multicol}
@@ -29,6 +29,9 @@
 #+LATEX_HEADER:\renewcommand{\headrulewidth}{1pt}
 #+LATEX_HEADER:\renewcommand{\footrulewidth}{1pt}
 
+#+LATEX_HEADER:\usepackage{librebaskerville}
+
+#+LATEX:\emergencystretch 3em
 #+LATEX:\begin{multicols*}{2}
 
 * Psalm 1
